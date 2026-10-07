@@ -82559,15 +82559,15 @@
     "prompt": "Please read the following multiple-choice questions and provide the most likely correct answer based on the options given.\n\nContext: None\n\nQuestion: Let $I(R)=\\iint_{{x^2+y^2 \\leq R^2}}(\\frac{{1+2 x^2}}{{1+x^4+6x^2y^2+y^4}}-\\frac{{1+y^2}}{{2+x^4+y^4}}) dx dy$. What is the limit of $I(R)$ as $R$ goes to infinity?\n\nOptions: \nA. 5.123456\nB. 2.453232\nC. 0.999999\nD. 4.669201\nE. 2.718281\nF. 3.141593\nG. 1.53978589\nH. 3.567839\nI. 0\nJ. -1.234567\n\n\nProvide the correct letter choice in \\boxed{X}, where X is the correct letter choice. Keep the explanation or feedback within 3 sentences.",
     "prediction": "xiaomi/mimo-v2.6-flash",
     "generated_result": {
-      "generated_answer": null,
-      "success": true,
+      "generated_answer": "",
+      "success": false,
       "token_usage": {
         "input_tokens": 266,
         "output_tokens": 131072,
         "total_tokens": 131338
       },
       "provider": "openrouter",
-      "error": null
+      "error": "no answer returned: reasoning reached the provider's max output tokens"
     },
     "cost": null,
     "accuracy": null,
@@ -83813,15 +83813,15 @@
     "prompt": "Please read the following multiple-choice questions and provide the most likely correct answer based on the options given.\n\nContext: None\n\nQuestion: Suppose that f is analytic on the closed unit disk, f(0) = 0, and $|Rf(z)| \\leq |e^z|$ for |z| < 1. What's the maximum value of f((1 + i)/2)?\n\nOptions: \nA. 19.85\nB. 17.95\nC. 16.75\nD. 20.25\nE. 18.50\nF. 13.45\nG. 22.00\nH. 14.30\nI. 21.10\nJ. 15.89\n\n\nProvide the correct letter choice in \\boxed{X}, where X is the correct letter choice. Keep the explanation or feedback within 3 sentences.",
     "prediction": "xiaomi/mimo-v2.6-flash",
     "generated_result": {
-      "generated_answer": null,
-      "success": true,
+      "generated_answer": "",
+      "success": false,
       "token_usage": {
         "input_tokens": 211,
         "output_tokens": 131072,
         "total_tokens": 131283
       },
       "provider": "openrouter",
-      "error": null
+      "error": "no answer returned: reasoning reached the provider's max output tokens"
     },
     "cost": null,
     "accuracy": null,
@@ -94434,15 +94434,15 @@
     "prompt": "Please read the following multiple-choice questions and provide the most likely correct answer based on the options given.\n\nContext: None\n\nQuestion: Let A =\\vert22\\vert,B =\\vert31\\vert. Find AB. \\vert12\\vert\\vert12\\vert \\vert42\\vert\n\nOptions: \nA. AB = |76| |75| |168|\nB. AB = |96| |65| |158|\nC. AB = |76| |45| |138|\nD. AB = |96| |55| |138|\nE. AB = |86| |45| |138|\nF. AB = |76| |55| |148|\nG. AB = |86| |55| |148|\nH. AB = |96| |75| |168|\nI. AB = |106| |75| |168|\nJ. AB = |106| |65| |158|\n\n\nProvide the correct letter choice in \\boxed{X}, where X is the correct letter choice. Keep the explanation or feedback within 3 sentences.",
     "prediction": "xiaomi/mimo-v2.6-flash",
     "generated_result": {
-      "generated_answer": null,
-      "success": true,
+      "generated_answer": "",
+      "success": false,
       "token_usage": {
         "input_tokens": 162,
         "output_tokens": 8696,
         "total_tokens": 8858
       },
       "provider": "openrouter",
-      "error": null
+      "error": "no answer returned: reasoning reached the provider's max output tokens"
     },
     "cost": null,
     "accuracy": null,
@@ -109501,15 +109501,15 @@
     "prompt": "Please read the following multiple-choice questions and provide the most likely correct answer based on the options given.\n\nContext: None\n\nQuestion: Which of the following event has little or no significance?\n\nOptions: \nA. Mandibular incisor erupting before mandibular molar\nB. Mandibular canine erupting before mandibular premolar\nC. Mandibular 2nd premolar erupting before mandibular 2nd molar\nD. Maxillary premolar and canine erupting before maxillary 2nd molar\n\n\nProvide the correct letter choice in \\boxed{X}, where X is the correct letter choice. Keep the explanation or feedback within 3 sentences.",
     "prediction": "z-ai/glm-5.3-flash",
     "generated_result": {
-      "generated_answer": null,
-      "success": true,
+      "generated_answer": "",
+      "success": false,
       "token_usage": {
         "input_tokens": 153,
         "output_tokens": 131072,
         "total_tokens": 131225
       },
       "provider": "openrouter",
-      "error": null
+      "error": "no answer returned: reasoning reached the provider's max output tokens"
     },
     "cost": null,
     "accuracy": null,
