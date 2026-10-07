@@ -1,0 +1,14 @@
+{
+  "pipeline_params": {
+    "router_name": "argrouter",
+    "router_cls_name": "external_prediction_file",
+    "models": [
+      "google/gemini-3.8-flash-reasoning-low",
+      "google/gemma-4-31b-it",
+      "z-ai/glm-5.3-flash",
+      "openai/gpt-6-luna",
+      "xiaomi/mimo-v2.6-flash"
+    ],
+    "description": "Routes on the question content only: the first and last paragraph of the prompt (instruction and answer-format text) are dropped and field labels / option letters stripped with generic patterns; no RouterArena config, template or dataset file is read. Per-model P(correct) from logistic regression + kNN on local bge-small embeddings of that content, expected cost from the billed token usage (reasoning included) of the nearest external training prompts; picks argmax P(correct) - lambda * expected cost. Calibration sources weighted equally. Trained only on held-out items from the same public source benchmarks, with every RouterArena item excluded."
+  }
+}
